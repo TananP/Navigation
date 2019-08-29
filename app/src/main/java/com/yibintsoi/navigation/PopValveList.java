@@ -105,7 +105,7 @@ public class PopValveList extends AppCompatActivity {
 //                Object test1 = test.get("valve_id");
 //                Log.d(TAG,"onEvent5555:" + test1);
                 Map<Integer,Boolean> valveIdMap = (Map<Integer,Boolean>) test.get("valve_id");
-                Log.d(TAG,"onEvent5555:" + valveIdMap);
+//                Log.d(TAG,"onEvent5555:" + valveIdMap);
                 for (Map.Entry<Integer,Boolean> entry : valveIdMap.entrySet()){
                     valveList.add(entry.getKey());
                 }

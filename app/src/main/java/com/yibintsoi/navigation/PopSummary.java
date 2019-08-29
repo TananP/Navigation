@@ -133,7 +133,7 @@ public class PopSummary extends AppCompatActivity {
                     valveList.add(String.valueOf(entry.getKey()));
                     valveStatusList.add(String.valueOf(entry.getValue()));
                 }
-                Log.d(TAG,"onEvent Key: " + valveList + " Valve: " + valveStatusList);
+//                Log.d(TAG,"onEvent Key: " + valveList + " Valve: " + valveStatusList);
                 MyAdapter adapter = new MyAdapter(PopSummary.this, valveList, valveStatusList);
                 listViewSummary.setAdapter(adapter);
 //                CustomAdapter customAdapter = new CustomAdapter() ;
